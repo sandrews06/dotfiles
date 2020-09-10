@@ -24,6 +24,8 @@ if [ "$system_type" = "Darwin" ]; then
   source $DOTFILE_DIR/config/keygen.sh
   source $DOTFILE_DIR/config/npm/global.sh
   source $DOTFILE_DIR/config/macos/defaults.sh
+  source $DOTFILE_DIR/config/git.sh
+
 
   echo "moving zshrc files"
 
